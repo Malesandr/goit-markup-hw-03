@@ -18,6 +18,32 @@
     --ocean: #404BBF;
   }
   
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  
+  ul {
+    margin: 0;
+    padding-left: 0;
+  }
+  
+
+.team-list-item, .portfolio-list-item img {
+  display: block;
+}
+  
 /* decoration */
 .nav-list-name, .address-link, .logo-type, .footer-logo {
 
