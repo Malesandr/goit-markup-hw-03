@@ -1,15 +1,5 @@
  /* Base style */
 
- .body {
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate);
-  background-color: #FFF;
-}
-
-
 :root {
     --navyblue: #2E2F42;
     --iris: #4D5AE5;
@@ -18,6 +8,15 @@
     --slate: #434455;
     --ocean: #404BBF;
     --cornflower: #E7E9FC;
+  }
+  
+  .body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    background-color: var(--white);
   }
   
   /* *,
