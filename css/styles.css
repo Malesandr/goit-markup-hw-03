@@ -107,7 +107,7 @@ img {
 .page-nav-list {
   display: flex;
   align-items: center;
-  gap: 40px;
+
 }
 
 .nav {
@@ -364,4 +364,9 @@ margin-bottom: 8px;
 
 .logo-studio-footer {
  color: var(--cloud);
+}
+
+.footer-text {
+  max-width: 264px;
+  color: var(--cloud); 
 }
